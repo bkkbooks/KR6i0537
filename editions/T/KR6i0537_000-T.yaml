@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0537/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 謗佛經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0831.xml
+    old_id: T17n0831
+hash: sha256:7f3d51efbdda300184b8550effd1c979f97bc06d685853fd70296c7dd5087626

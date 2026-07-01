@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR6i0537/v1
+canonical_location: https://kanripo.org/bkk/KR6i0537/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 謗佛經
+  identifiers:
+    alt_id:
+    - T17n0831
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0831.xml
+    old_id: T17n0831
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit1
+- short: 明
+  label: 明
+  source_xml_id: wit2
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 磧-CB
+  label: 磧-CB
+  source_xml_id: wit5
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit6
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0537_000.yaml, hash: 'sha256:7f3d51efbdda300184b8550effd1c979f97bc06d685853fd70296c7dd5087626'}
+  - {seq: 1, filename: KR6i0537_001.yaml, hash: 'sha256:b12422ca24a36111eb9e0d14861de9d87b2cb9f48955018139b2f9fa167b6c5b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0537_001.markers.yaml, hash: 'sha256:9e8b23e05f3bb84bf31f6a9ab23c0a3f79319d17270f4b23f1306faf09dd83cc'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0537_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2823
+  label: 謗佛經
+  type: juan
+  level: 1
+hash: sha256:6d20ad4c73e16629b85247d67fb9c623880cc201cad095bfbcde209ca1016c0d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

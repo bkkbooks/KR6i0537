@@ -37,9 +37,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0537_000.yaml, hash: 'sha256:7f3d51efbdda300184b8550effd1c979f97bc06d685853fd70296c7dd5087626'}
-  - {seq: 1, filename: KR6i0537_001.yaml, hash: 'sha256:b12422ca24a36111eb9e0d14861de9d87b2cb9f48955018139b2f9fa167b6c5b'}
+  - {seq: 1, filename: KR6i0537_001.yaml, hash: 'sha256:eb541c1ea31d6f7c02a720692a50bdecf0e685c6c71ed31f0235a0c7613e3b5f'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0537_001.markers.yaml, hash: 'sha256:9e8b23e05f3bb84bf31f6a9ab23c0a3f79319d17270f4b23f1306faf09dd83cc'}
+  - {seq: 0, role: markers, filename: assets/KR6i0537_000.markers.yaml, hash: 'sha256:d24493ec91cfc27f3ad3478d4109fc863916a1bbe26eb97974935dd6b8540570'}
+  - {seq: 1, role: markers, filename: assets/KR6i0537_001.markers.yaml, hash: 'sha256:756b324a16a670e062e00165456231e99b3b8b45a8a46a2de0c2cdfe4663b71e'}
 table_of_contents:
 - ref:
     seq: 1
@@ -51,7 +52,4 @@ table_of_contents:
   label: 謗佛經
   type: juan
   level: 1
-hash: sha256:6d20ad4c73e16629b85247d67fb9c623880cc201cad095bfbcde209ca1016c0d
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:63d51f82e4449d54e6d0871b9b69e24370f05c191ae9e5391bb5a53271f44bf1
